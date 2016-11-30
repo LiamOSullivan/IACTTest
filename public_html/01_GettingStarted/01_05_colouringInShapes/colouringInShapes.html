@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson 01 - Getting Started</title>
+        <script src="../../libraries/p5.js" type="text/javascript"></script>
+        <script src="../../libraries/p5.sound.js" type="text/javascript"></script>
+        <script src="../../libraries/p5.dom.js" type="text/javascript"></script>
+        <script src="colouringInShapes.js" type="text/javascript"></script>
+        <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    </head>
+    <body>
+        <H1>Colouring In Shapes</H1>
+        <p>Shapes can be filled with a colour.<br> 
+            Here, a black square is drawn on a white canvas background.<br>
+            A grey circle is also drawn.<br>
+            Finally, a rectangle is drawn with no fill colour, so that the background color can be seen.<br></p>        
+        <h2>How it works:</h2>
+        <p>The canvas is coloured white using <b>background()</b>. The number for <b>white</b> is <b>255</b><br>
+            The colour used to paint a shape is set using the <b>fill()</b> function.<br>
+            You can think of this as putting your paintbrush in a particular paint colour, before starting to paint the shape.<br>
+            So <b>fill()</b> is called <b>BEFORE</b> the shape is drawn.<br>
+            Like <b>background()</b>, colour is set using a number as an argument. So to colour the square black, <b>fill(0)</b> is used. <br>
+            The <b>rect()</b> function is used to draw squares and rectangles, its <b>arguments</b> work like <b>ellipse()</b>: <b>x</b>, <b>y</b>, <b>width</b>, <b>height</b>.<br>
+            After drawing the square and before drawing the circle, the fill colour must be changed to grey. Think of dipping your paintbrush in a new colour.<br>
+            If the number 0 is <b>black</b> and 255 is <b>white</b>, grey is some number in-between. Try putting 125 in the second <b>fill()</b> function.<br>
+            The circle is then drawn with the fill colour grey.
+            to draw a shape that is transparent (has no colour), you can use <b>noFill()</b>. It's like cleaning your paintbrush!<br>
+            A rectangle can be drawn using <b>rect()</b>, this time by setting different values for <b>width</b> and <b>height</b>.<br>
+        </p>        
+
+    </body>
+</html>
