@@ -1,5 +1,11 @@
+/*************************
+ * Foundations in Coding *       
+ *************************
+ *  IACT ** www.iact.ie  *
+ *************************/
+
 /**************************************
- * Concentric Circles
+ * Concentric Circles with Variables
  ***************************************
 
 
@@ -14,17 +20,17 @@ Liam O'Sullivan - lmosulli@tcd.ie
 
 */
 
-int xPosition = 300; //variable for x coordinate of circles, as they are concentric
-int yPosition = 300; //variable for y coordinate
+var xPosition = 200; //variable for x coordinate of circles, as they are concentric
+var yPosition = 200; //variable for y coordinate
 
 
-size(600,600);
+function setup(){
+    createCanvas(400,400);
 background(0);
-noFill();
+fill(0);
 stroke(255);
-ellipse(xPosition,yPosition, 600,600); //use the variables as arguments
-ellipse(xPosition,yPosition, 500,500);
-ellipse(xPosition,yPosition, 400,400);
+ellipse(xPosition,yPosition, 400,400); //use the variables as arguments
 ellipse(xPosition,yPosition, 300,300);
 ellipse(xPosition,yPosition, 200,200);
 ellipse(xPosition,yPosition, 100,100);
+}

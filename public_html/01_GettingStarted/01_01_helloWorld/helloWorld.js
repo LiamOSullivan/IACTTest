@@ -19,6 +19,6 @@ to the console window.
 //Print to the browser console
 //console.log("Hello World!"); 
 function setup(){
-    print("Hello World!");
+    println("Hello World!");
 }
 

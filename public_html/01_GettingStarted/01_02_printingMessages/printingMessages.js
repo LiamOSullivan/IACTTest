@@ -5,8 +5,8 @@
  *************************/
 
 function setup(){
-    print("Hello \t Again \t World! \n");
-    print("Here "+"is "+"a "+"long "+"message "+"made "+"of "+"shorter "+"ones.");
+    println("Hello \t Again \t World! \n");
+    println("Here "+"is "+"a "+"long "+"message "+"made "+"of "+"shorter "+"ones.");
 }
 
 
