@@ -28,7 +28,7 @@ var yPosition; //variable for y coordinate
 function setup() {
     createCanvas(400, 400);
     xPosition = width/2;
-    xPosition = height/2;
+    yPosition = height/2;
     background(0);
     fill(0);
     stroke(255);
