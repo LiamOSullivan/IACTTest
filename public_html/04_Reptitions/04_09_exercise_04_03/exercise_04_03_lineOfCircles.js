@@ -10,7 +10,7 @@ function setup() {
     ellipseMode(CORNER); //drawing the ellipse from the corner of the bounding box
     //will ensure we don't have half a circle on the left-hand side
 //for loop to iterate 20 times...
-var step = width / 20;
+    var step = width / 20;
     for (var i = 0; i < 20; i += 1) { //i is commonly used as the loop counter variable
         ellipse(step * i, height / 2, step, step);
         //by using width/20 we can space the circles equally across the screen

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson 04 - Repetitions</title>
+        <script src="../../libraries/p5.js" type="text/javascript"></script>
+        <script src="../../libraries/p5.sound.js" type="text/javascript"></script>
+        <script src="../../libraries/p5.dom.js" type="text/javascript"></script>
+        <script src="movingCircle.js" type="text/javascript"></script>
+        <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    </head>
+    <body>
+        <h1>Moving Circle</h1>
+        Animating a shape with motion.
+        <h2>How it Works:</h2>
+        <p>
+            We need the variable for the x-position to have global scope,so that it may be modified from within the <b>setup()</b> and <b>draw()</b> functions.
+            Therefore, we declare it at the top of the sketch.   <br>  
+            Redrawing the background means that the previous circle will be erased before the new one is drawn. <br>
+            Comment out this statement to see the effect of not redrawing the background.<br>
+            <b>circleX += 1;</b> increments the variable by 1 every frame, so the circle moves 1 pixel at a time.<br>
+            <b>circleX += speed;</b> increments the variable by the value stored in the <b>speed</b> variable.<br>
+        </p>
+    </body>
+</html>
