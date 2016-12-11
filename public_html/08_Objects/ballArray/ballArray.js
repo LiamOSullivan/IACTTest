@@ -4,7 +4,7 @@
  *  IACT ** www.iact.ie  *
  *************************/
 var ballArray = [];
-var nBalls = 50;
+var nBalls = 25;
 
 function setup(){
     createCanvas(400,400);
