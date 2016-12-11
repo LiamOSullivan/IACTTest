@@ -24,7 +24,6 @@ int circleSize;
 void setup() {
   size(400, 400);
   frameRate(25);
-  smooth();
   background(100, 100, 0); 
   fill(255);
   noStroke();
@@ -35,7 +34,7 @@ void setup() {
 }
 
 void draw() {
-  //background(100, 100, 0); //try commenting this out to see the effect
+  background(100, 100, 0); //try commenting this out to see the effect
   ellipse(circleXPosition, circleYPosition, circleSize, circleSize);
 }
 
