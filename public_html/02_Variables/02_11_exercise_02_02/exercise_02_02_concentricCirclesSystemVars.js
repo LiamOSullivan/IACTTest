@@ -4,23 +4,6 @@
  *  IACT ** www.iact.ie  *
  *************************/
 
-
-/**************************************
- * Concentric Circles
- ***************************************
- 
- 
- Draws 6 concentric circles. Variables are 
- used to store the center position, rather 
- than 'hard coding' the values as args.
- The positions of the circles 
- can be changed more easily by 
- changing the values of the variables.
- 
- Liam O'Sullivan - lmosulli@tcd.ie
- 
- */
-
 var xPosition; //variable for x coordinate of circles, as they are concentric
 var yPosition; //variable for y coordinate
 

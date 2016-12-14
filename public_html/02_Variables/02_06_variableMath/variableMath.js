@@ -16,7 +16,7 @@ function setup() {
 
     result = 3.14 * 100; //multiply
     println("Result of multiplication is: " + result);
-    
+
     //we can, of course, treat variables like numbers:
     var num1 = 100;
     var num2 = 1.23;
