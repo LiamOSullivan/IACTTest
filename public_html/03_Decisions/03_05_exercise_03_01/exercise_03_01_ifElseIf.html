@@ -8,19 +8,28 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lesson 03 - Decisions</title>
+        <title>Fundamentals of Programming: 03 - Decisions</title>
+        <!--favicon fix-->
+        <link rel="icon" href="data:;base64,iVBORwOKGO=" /> 
+        <!--P5 libraries-->         
         <script src="../../libraries/p5.js" type="text/javascript"></script>
-        
         <script src="../../libraries/p5.dom.js" type="text/javascript"></script>
         <script src="exercise_03_01_ifElseIf.js" type="text/javascript"></script>
         <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
     </head>
     <body>
         <h1> Exercise 03.01 - If Else If </h1>
-        Code which decides whether or not to colour some shapes, based on the states of 2 boolean values.   <br>    
+        Code which decides how to draw and colour some shapes, based on the states of boolean values.   <br>    
         <h2>To Do:</h2>
         <p>
-         
+            Create two variables to store Boolean values: <br>
+            <b>useOutlines</b> and <br>
+            <b>useFillColor</b><br>
+            Use these to decide how a pair of shapes of your choosing should be drawn.<br>
+            Make sure the shapes are always visible with a single if-else-if structure. <br>
+            If <b>useOutlines</b> is true, the shapes should have a stroke but no fill colour (regardless of <b>useFillColor</b>).<br>
+            If <b>useOutlines</b> and <b>useFillColor</b> are both false, use BOTH a stroke outline and fill colour anyway.
+
         </p>
     </body>
 </html>

@@ -4,10 +4,12 @@
  *  IACT ** www.iact.ie  *
  *************************/
 function setup() {
-    var colorShapesRed = false;
+    var colorShapesRed = true;
     var addOutline = true;
     createCanvas(400, 400);
     background(0);
+    println("colorShapesRed is: "+colorShapesRed);
+    println("addOutline is: "+addOutline);
     //drawing defaults
     fill(255);
     strokeWeight(5);

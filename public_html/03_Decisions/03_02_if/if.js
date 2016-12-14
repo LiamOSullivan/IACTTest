@@ -8,6 +8,7 @@ function setup() {
     createCanvas(400, 400);
     background(0);
     fill(255);
+    println("drawCircle is: "+drawCircle);
     if (drawCircle) {
         ellipse(width / 2, height / 2, 100, 100);
     }

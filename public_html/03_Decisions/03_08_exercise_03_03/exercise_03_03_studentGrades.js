@@ -4,18 +4,22 @@
  *  IACT ** www.iact.ie  *
  *************************/
 function setup() {
-    var grade = random(0, 100);
+    createCanvas(400,400);
     
-    if (grade >= 85) {
-        println("Assign grade 1");
-    } else if (grade >= 60) { // In one conditional statement, you can only ever have one if and one else. However, you can have as many else if's as you like!
-        println("Assign grade 2.1");
-    } else if (grade >= 50) {
-        println("Assign grade 2.2");
-    } else if (grade >= 40) {
-        println("Assign grade Pass");
+    var percent = int(random(0, 100));
+    textSize(25);
+    text("Percentage Mark: "+percent, 50, 100);
+    
+    if (percent >= 70) {
+        text("Assign grade 1", 50,200);
+    } else if (percent >= 60) { // In one conditional statement, you can only ever have one if and one else. However, you can have as many else if's as you like!
+        text("Assign grade 2.1", 50,200);
+    } else if (percent >= 50) {
+        text("Assign grade 2.2",50,200);
+    } else if (percent >= 40) {
+        text("Assign grade Pass",50,200);
     } else {
-        println("Assign grade Fail");
+        text("Assign grade Fail",50,200);
     }
 
 }
