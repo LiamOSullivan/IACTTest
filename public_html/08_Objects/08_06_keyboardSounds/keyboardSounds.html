@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson 08 - Objects</title>
+        <script src="../../libraries/p5.js" type="text/javascript"></script>
+        <script src="../../libraries/p5.sound.js" type="text/javascript"></script>
+        <script src="../../libraries/p5.dom.js" type="text/javascript"></script>
+        <script src="keyboardSounds.js" type="text/javascript"></script>
+        <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    </head>
+    <body>
+        <h1>Keyboard Sounds </h1>
+        Different sounds trigger when keys are pressed.
+        <h2>How it Works:</h2>
+        <p>
+            Sounds are loaded into an array in the <b>preload()</b> function. <br>
+            A var keeps track of the latest key press in numerical form.
+            The <b>keyPressed()</b> function handles keyboard event.<br>
+            An <b>if-statement</b> checks only for certain keys (numbers 0->5 inclusive).<br>
+            A valid key is converted to a number which is used to play back an index from the array.<br>
+        </p>
+    </body>
+</html>
